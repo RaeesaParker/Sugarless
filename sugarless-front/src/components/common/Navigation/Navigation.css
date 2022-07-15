@@ -1,0 +1,82 @@
+
+
+.justify-right{
+	margin-left: auto; 
+	margin-right: 0;
+}
+
+.logo-properties{
+	top: 0px;
+	width: 200px;
+	height: 200px;
+	
+}
+
+
+.dropdown-item, .dropdown-toggle, .nav-link{
+	color: var(--black);
+	font-family: var(--textFont);
+	font-weight: 700;
+	letter-spacing: 0.75px;
+}
+
+.navbar{
+	background-color: var(--cream);
+}
+
+
+.nav-link{
+	text-align: center;
+}
+
+.nav-link:hover{
+	color: var(--green);
+}
+
+
+
+/*
+// -------------------------------------------------- //
+// Media Breakpoints
+// -------------------------------------------------- //
+*/
+
+/* Large */
+@media (max-width:992px){
+  .dropdown-menu{
+  	max-width: 30%;
+  }
+
+}
+
+
+/* Medium */
+@media (max-width:786px){
+  .logo-properties{
+    left: 50%;
+    top: 20%;
+  }
+  .navbar{
+  	padding-left: 5%;
+  }
+  .nav-link{
+	text-align: left;
+}
+  .dropdown-menu{
+  	max-width: 40%;
+  }
+
+}
+
+/* Small */
+@media (max-width:576px){
+	.logo-properties{
+	    width: 175px;
+			height: 175px;
+	}
+}
+
+
+
+
+

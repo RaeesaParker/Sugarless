@@ -1,13 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* -------------------------------------------------- */
+/*   VARIABLES                                        */  
+/* -------------------------------------------------- */
+
+/* Colours */
+
+/* To use in other css files => var(--purple) */
+
+:root {
+  --purple: #693f4d;
+  --cream:  #fff3e5;
+  --green: #7bd3ac; 
+  --black: #0f0f0f;
 }
+
+
+
+/* Fonts */
+
+:root{
+  --titleFont: 'Special Elite', cursive;
+  --subTitleFont:  'Amiri', serif;
+  --textFont:  'Raleway', sans-serif;
+}
+
+
+
+h1{
+ font-family: var(--titleFont);
+ font-size: 50px;
+}
+
+
+p{
+  color: var(--black);
+}
+
+
+
+/* -------------------------------------------------- */
+/*   GLOBAL CLASSES                                   */  
+/* -------------------------------------------------- */
+
+
+
+.center-flex{
+  display:flex;
+  justify-content: center;
+}
+
+
+
+
